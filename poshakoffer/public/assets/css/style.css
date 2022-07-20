@@ -1,0 +1,200 @@
+:lang(fa) {
+    direction: rtl;
+    text-align: right;
+}
+
+:lang(en) {
+    direction: ltr;
+    text-align: left;
+    /*font-family:	'Lateef', cursive;
+    font-family:	'Markazi Text', cursive;*/
+}
+
+.sid {
+    background-color: rgba(243, 130, 91, 0.2) !important;
+}
+
+.sid .nav-pills .active {
+    background-color: rgba(243, 130, 91);
+}
+
+.btn-primary {
+    background-color: rgb(227, 114, 75);
+    border-color: rgb(211, 98, 59);
+}
+
+.btn-primary:hover {
+    background-color: rgb(195, 82, 43);
+    border-color: rgb(211, 98, 59);
+}
+
+.form-control {
+    /* border-width:	0px 0px 2px 0px;
+    border-color: 	rgb(227, 114, 75); */
+
+    border-radius: 4px;
+}
+
+.form-check-input:checked {
+    /*background-color:	rgb(227, 114, 75);
+    border-color:		rgb(211, 98, 59);*/
+}
+
+.input-group-text {
+    /*background-color:	rgb(227, 114, 75);
+    border-color:		rgb(211, 98, 59);
+    color: 				white;*/
+}
+
+aside {
+    color: black;
+    background: rgba(0, 0, 0, .1);
+}
+
+nav.sticky-top {
+    background-color: rgba(243, 130, 91, 0.9) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+/* validation */
+:focus:invalid {
+    /* outline-color:		hsl(-10, 90%, 70%);
+    outline:			none;
+    box-shadow:			0;*/
+    border-color: hsl(-10, 90%, 70%);
+}
+
+:focus:valid:not( [type = "submit"] ) {
+    /*outline-color:		hsl(120, 90%, 50%);
+    outline:			none;
+    box-shadow:			0;*/
+    border-color: hsl(120, 90%, 50%);
+}
+
+.fa-heart.far:active {
+    color: red;
+}
+
+.fa-heart.fas {
+    color: red;
+}
+
+
+.max-height-100 {
+    max-height: 100px !important
+}
+
+.max-height-150 {
+    max-height: 150px !important
+}
+
+.max-height-160 {
+    max-height: 160px !important
+}
+
+.max-height-200 {
+    max-height: 200px !important
+}
+
+.max-height-250 {
+    max-height: 250px !important
+}
+
+.max-height-300 {
+    max-height: 300px !important
+}
+
+.max-height-400 {
+    max-height: 400px !important
+}
+
+.max-height-500 {
+    max-height: 500px !important
+}
+
+.max-height-600 {
+    max-height: 600px !important
+}
+
+.max-height-vh-10 {
+    max-height: 10vh !important
+}
+
+.max-height-vh-20 {
+    max-height: 20vh !important
+}
+
+.max-height-vh-30 {
+    max-height: 30vh !important
+}
+
+.max-height-vh-40 {
+    max-height: 40vh !important
+}
+
+.max-height-vh-50 {
+    max-height: 50vh !important
+}
+
+.max-height-vh-60 {
+    max-height: 60vh !important
+}
+
+.max-height-vh-70 {
+    max-height: 70vh !important
+}
+
+.max-height-vh-80 {
+    max-height: 80vh !important
+}
+
+.max-height-vh-90 {
+    max-height: 90vh !important
+}
+
+.max-height-vh-100 {
+    max-height: 100vh !important
+}
+
+.min-height-100 {
+    min-height: 100px !important
+}
+
+.min-height-150 {
+    min-height: 150px !important
+}
+
+.min-height-160 {
+    min-height: 160px !important
+}
+
+.min-height-200 {
+    min-height: 200px !important
+}
+
+.min-height-250 {
+    min-height: 250px !important
+}
+
+.min-height-300 {
+    min-height: 300px !important
+}
+
+.min-height-400 {
+    min-height: 400px !important
+}
+
+.min-height-500 {
+    min-height: 500px !important
+}
+
+.min-height-600 {
+    min-height: 600px !important
+}
+
+.card{
+    flex-direction: column;
+}
