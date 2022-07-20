@@ -30,8 +30,8 @@
                                class='btn fa-lg <?php if (isset($like)) echo 'fas'; else echo 'far'; ?> fa-heart'></a>
                             <a href='saveProduct.php?id=<?php echo $id; ?>' class='btn fa-lg far fa-bookmark'
                                target='_blank'></a>
-                        </span>
-                    <section>
+                    </span>
+                <section>
             </footer>
         </article>
     </a>

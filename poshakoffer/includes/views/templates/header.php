@@ -25,6 +25,11 @@
         </ul>
     </div>
 
+            <span class='mx-5'>
+                <a href="<?php echo SITE_URL; ?>shoppingCartPage.php" class="btn btn-warning m-1">سبد خرید</a>
+            </span>
+
+
     <?php
     if (Authentication:: check()) {
         echo <<< EOT

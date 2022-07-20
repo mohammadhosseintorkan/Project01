@@ -1,9 +1,10 @@
 <section class='col p-3'>
-    <a href='productDetails.php?id=<?php echo $id; ?>'>
-        <article class='card h-100' id="card">
+        <article class='row card h-100' id="card" style="flex-direction: row">
+            <a class='col-1 p-0' href='productDetails.php?id=<?php echo $id; ?>'>
             <img src='<?php if (isset($imgSrc)) echo assets('upload/' . $imgSrc); else echo assets('upload/null.jpg'); ?>'
-                 class='card-img-top'>
-            <section class='card-body'>
+                 class='card-img-top h-100 w-100'>
+            </a>
+            <section class='col-10 card-body'>
                 <h4 class='card-title'>
                     <a href='productDetails.php?id=<?php echo $id; ?>' class='card-link text-decoration-none'>
                         نام محصول: <?php echo $name; ?>
@@ -19,19 +20,12 @@
                     </p>
                 </section>
             </section>
-            <footer class='card-footer'>
+            <footer class='col-1 card-footer'>
                 <section class="row justify-content-between">
                         <span class='col'>
-                            <a href='shoppingCart.php?id=<?php echo $id; ?>' class='btn btn-primary m-1'>افزودن به سبد</a>
-                        </span>
-                        <span class='col text-end align-self-center'>
-                            <a href='likeProduct.php?id=<?php echo $id; ?>'
-                               class='btn fa-lg <?php if (isset($like)) echo 'fas'; else echo 'far'; ?> fa-heart'></a>
-                            <a href='saveProduct.php?id=<?php echo $id; ?>' class='btn fa-lg far fa-bookmark'
-                               target='_blank'></a>
+                            <a href='deleteShoppingCart.php?id=<?php echo $id; ?>' class='btn btn-danger m-1'>حذف</a>
                         </span>
                     <section>
             </footer>
         </article>
-    </a>
 </section>

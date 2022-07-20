@@ -18,10 +18,12 @@ $dbUser =	DBUSER;
 $dbPass =	DBPASS;
 $dbName =	DBNAME;
 
+
 $charset =	CHARSET;
 $collate =	COLLATE;
 
 $softSetup = false;
+
 
 if( ! defined('LOGIN_DEADLINE') )
     define( 'LOGIN_DEADLINE', 30 );  // days
